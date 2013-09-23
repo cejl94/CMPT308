@@ -1,6 +1,6 @@
 --Connor Loughlin
 --SQL Homework 2
--- 9/22/13
+--  9/22/13
 
 
 --1 Get the cities of agents booking an order for customer c002
@@ -76,7 +76,7 @@ Where cid in (
 		Where aid in (
 				       Select aid 
 				       From agents 
-				       Where city = 'Dallas' 
+				       Where city = 'Dallas'
 				       or city = 'Duluth'
 				)
 		);
